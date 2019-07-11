@@ -13,6 +13,7 @@ Storing the trusted weather reports on Blockchain for the better prediction is t
 ### [1.1.b: About the Internet of Things](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#11b-about-the-internet-of-things-)
 ### [1.2.a: How much relevant is Blockchain Technology to the practical field?](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#12a-how-much-relevant-is-blockchain-technology-to-the-practical-field)
 ### [1.2.b: How much relevant is IoT to the practical field?](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#12b-how-much-relevant-is-iot-to-the-practical-field)
+### [1.3: Importance of the proposed study:-](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#13-importance-of-the-proposed-study-)
 
 
 ***
