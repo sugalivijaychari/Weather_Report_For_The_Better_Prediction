@@ -38,11 +38,15 @@ Cryptography, hash tables, and digital signatures are factors of securitization 
 ### 1.1.b: About the Internet of Things:-
 Internet of Things (IoT) is an ecosystem of connected physical objects that are accessible through the internet. The ‘thing’ in IoT could be a person with a heart monitor or an automobile with built-in-sensors, i.e. objects that have been assigned an IP address and have the ability to collect and transfer data over a network without manual assistance or intervention. The embedded technology in the objects helps them to interact with internal states or the external environment, which in turn affects the decisions taken.
 
+![Showing the internet of things connected with each other ](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/images/1_1_b.png)
+
 An article by Ashton published in the RFID Journal in 1999 said, “If we had computers that knew everything there was to know about things - using data they gathered without any help from us - we would be able to track and count everything, and greatly reduce waste, loss, and cost. We would know when things needed replacing, repairing or recalling, and whether they were fresh or past their best. We need to empower computers with their own means of gathering information, so they can see, hear and smell the world for themselves, in all its random glory.” This is precisely what IoT platforms do for us. It enables devices/objects to observe, identify and understand a situation or the surroundings without being dependent on human help.
 
 ### 1.2.a: How much relevant is Blockchain Technology to the practical field?
 
 As our project need to adopt a decentralized way of authorization and decentralized servers, Blockchain Technology is more relevant to study and implement. To practically implement this system, we used to deploy smart contracts in any of the Blockchains. So, we have chosen Ethereum Blockchain is the best among private Blockchains to implement as they provide a platform to build and deploy smart contracts which are written in Solidity programming language on top of their Blockchain. Whereas, private Blockchains cost more to the service they provide compared to Ethereum Blockchain because Ethereum Blockchains have Main and Test networks. Test networks provide free ethers in which every transaction is done in Blockchain worth none. Transaction means an event happen through smart contracts we create.
+
+![Classification of Ethereum Networks](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/images/1_2_a.png)
 
 As there are more developers who build smart contracts on top of Ethereum Blockchain to present their work with Decentralized network, Blockchain Technology is relevant to study and to implement in the practical field.
 
@@ -57,9 +61,11 @@ As there are many applications in the real-world using the internet of things, w
 
 ## 1.3: Importance of the proposed study:-
 
-All the things we discussed earlier in the abstract are very clear that we should create an automated channel for measuring, collecting and storing the data with utilizing them for the better prediction. To automate this channel without the intervention of human we should prefer our proposed studies on Blockchain and the Internet of Things.
+All the things we discussed earlier in the abstract are very clear that we should create an automated channel for measuring, collecting and storing the data by utilizing them for the better prediction. To automate this channel without the intervention of human we should prefer our proposed studies on Blockchain and the Internet of Things.
 
 The big challenge we face to build this automated channel is to integrate Blockchain with the Internet of Things. There is no direct method to integrate these two. Hence, we have chosen an alternate technique to integrate Blockchain and the Internet of Things. The technique is that measured values from IoT devices are sent to decentralized clouds, take the data in clouds to smart contract by using Oraclization. It is very important to build an automated channel by using Oraclization.
+
+![The automated channel to measure, collect and store IoT data in Blockchain using Oraclize](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/images/1_3.png)
 
 Secure communication between IoT devices can be enhanced using Blockchain architecture. Because of centralized server utilization, communication deficiency and confidentiality flaw over IoT data by IoT devices, there is a significant necessity to acquire Blockchain architecture. As we know Blockchain is a decentralized database with distributed network facility which uses most advanced cryptographic hash functions to secure the data, it is always essential to store, share and secure the IoT data using its architecture. 
 
@@ -237,4 +243,8 @@ By the successful integration of things with Blockchain, we can even extend this
 * Xalentis, https://gideonvos.wordpress.com/2017/12/20/gps-iot-blockchain-integration-to-erp/. 
 
 
-***
+
+
+
+
+
