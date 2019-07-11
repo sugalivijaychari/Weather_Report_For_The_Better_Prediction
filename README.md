@@ -5,19 +5,6 @@ Storing the trusted weather reports on Blockchain for the better prediction is t
 ***
 
 
-# TABLE OF CONTENTS
-
-## [ABSTRACT](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#abstract)
-## [1. Introduction](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#1-introduction)
-### [1.1.a: About Blockchain Technology](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#11a-about-blockchain-technology-)
-### [1.1.b: About the Internet of Things](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#11b-about-the-internet-of-things-)
-### [1.2.a: How much relevant is Blockchain Technology to the practical field?](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#12a-how-much-relevant-is-blockchain-technology-to-the-practical-field)
-### [1.2.b: How much relevant is IoT to the practical field?](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#12b-how-much-relevant-is-iot-to-the-practical-field)
-## [1.3: Importance of the proposed study:-](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/README.md#13-importance-of-the-proposed-study-)
-
-
-***
-
 # ABSTRACT
 
    Nowadays, data is a very important aspect of the modern world. During the past, the prediction algorithms are not much accurate because of the lack of more data. Now, the predictions algorithms perform better because of having more data. The techie formula is that updating ourselves with ongoing technology for efficient and effective results. Hence, in the field of predicting something using any kind of algorithm, we should take care of the accuracy. Accuracy depends on the type of data, quantity, and quality of data. If the data is collected by the untrusted source, then it affects the accuracy in prediction. So, we have taken one example of predicting something to improve the accuracy by collecting the trusted data and by storing in reliable data storages.
