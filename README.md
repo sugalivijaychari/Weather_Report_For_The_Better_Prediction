@@ -4,8 +4,10 @@
 
 - [ABSTRACT](#abstract)
 - [1: INTRODUCTION](#1-introduction)
+	- [1.1: About Blockchain and Internet of Things:-](#11-about-blockchain-and-internet-of-things-)
 		- [1.1.a: About Blockchain Technology:-](#11a-about-blockchain-technology-)
 		- [1.1.b: About the Internet of Things:-](#11b-about-the-internet-of-things-)
+	- [1.2: How much relevant is Blockchain and Internet of Things to the practical field?](#12-how-much-relevant-is-blockchain-and-internet-of-things-to-the-practical-field)
 		- [1.2.a: How much relevant is Blockchain Technology to the practical field?](#12a-how-much-relevant-is-blockchain-technology-to-the-practical-field)
 		- [1.2.b: How much relevant is IoT to the practical field?](#12b-how-much-relevant-is-iot-to-the-practical-field)
 	- [1.3: Importance of the proposed study:-](#13-importance-of-the-proposed-study-)
@@ -52,6 +54,8 @@
 
 # 1: INTRODUCTION
 
+## 1.1: About Blockchain and Internet of Things:-
+
 ### 1.1.a: About Blockchain Technology:-
 
 Blockchain technology is introduced to the world by a white paper “Bitcoin, a peer-to-peer cash system” written by Satoshi Nakamoto, an anonymous person or group persons. Blockchain technology is cumulative of all other technologies such as decentralized servers, distributed networks, smart contracts, digital signatures, cryptography, hash tables and more. All these technologies are underpinned technologies used in Bitcoin white paper.
@@ -70,6 +74,8 @@ Internet of Things (IoT) is an ecosystem of connected physical objects that are 
 ![Showing the internet of things connected with each other ](https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/images/1_1_b.png)
 
 An article by Ashton published in the RFID Journal in 1999 said, “If we had computers that knew everything there was to know about things - using data they gathered without any help from us - we would be able to track and count everything, and greatly reduce waste, loss, and cost. We would know when things needed replacing, repairing or recalling, and whether they were fresh or past their best. We need to empower computers with their own means of gathering information, so they can see, hear and smell the world for themselves, in all its random glory.” This is precisely what IoT platforms do for us. It enables devices/objects to observe, identify and understand a situation or the surroundings without being dependent on human help.
+
+## 1.2: How much relevant is Blockchain and Internet of Things to the practical field?
 
 ### 1.2.a: How much relevant is Blockchain Technology to the practical field?
 
