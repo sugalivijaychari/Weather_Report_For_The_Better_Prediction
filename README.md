@@ -2,6 +2,9 @@
 Storing the trusted weather reports on Blockchain for the better prediction is the project which integrates most advanced technologies such as Blockchain, Internet of Things and Artificial Intelligence. All the details of this project are explained below.
 
 
+***
+
+
 # ABSTRACT
 
    Nowadays, data is a very important aspect of the modern world. During the past, the prediction algorithms are not much accurate because of the lack of more data. Now, the predictions algorithms perform better because of having more data. The techie formula is that updating ourselves with ongoing technology for efficient and effective results. Hence, in the field of predicting something using any kind of algorithm, we should take care of the accuracy. Accuracy depends on the type of data, quantity, and quality of data. If the data is collected by the untrusted source, then it affects the accuracy in prediction. So, we have taken one example of predicting something to improve the accuracy by collecting the trusted data and by storing in reliable data storages.
@@ -13,6 +16,9 @@ Storing the trusted weather reports on Blockchain for the better prediction is t
    We have taken weather prediction as an example. To predict the weather, the main attributes are temperature, humidity, air pressure, precipitation and wind speed. We are measuring these attributed by using IoT devices and sensors. After measuring, the immediate action is to store these measurements in Blockchain. As we know that there is no direct possibility to store the external data into Blockchain, we found an alternate method to store the external data (the measurements) into Blockchain.
 
    We are sending the measured data in decentralized clouds and from there by using the oraclizing technique, we collect the data from clouds, and we store them in Blockchain with the help of Oraclize smart contract. We can discuss deeply this with experiments. By changing the data storing method from centralized storages to decentralized storages like Blockchain, we can provide trust to the data and hence we can improve the prediction.
+
+
+***
 
 
 # 1: INTRODUCTION
@@ -59,7 +65,10 @@ Secure communication between IoT devices can be enhanced using Blockchain archit
 
 Decentralization of IoT devices is the familiar convention to make this happen. In our research, we found some robust methods to interconnect IoT devices with Blockchain. They are Oraclization of IoT data into a smart contract using Oraclize technique on Ethereum Blockchain. The other popular method is to store and retrieve the IoT data using decentralized data storages. This makes IoT devices to effectively store and share the data among them. The importance of Blockchain integrating with IoT can be discussed in three ways. They are building trust, reducing costs and accelerate transactions.
     
-    
+ 
+***
+
+   
 # 2: IDENTIFICATION OF THE PROBLEM
 
 ## 2.1: Brief Background of the problem:-
@@ -68,10 +77,10 @@ As we discussed earlier in the abstract, the data have more importance in the pr
 
 Reliable data in the sense, the data is collected from trusted sources which guarantee that they collected this whole data by themselves and by proper manner. The problems of having the data from the untrusted source are:
 
-	   The data may not be collected by genuine methods.
-	   The data may be collected manually.
-	   The data may be tampered by not maintaining proper systems.
-	   The timestamp and location at the time collection of the data may not be maintained well.
+* The data may not be collected by genuine methods.
+* The data may be collected manually.
+* The data may be tampered by not maintaining proper systems.
+* The timestamp and location at the time collection of the data may not be maintained well.
 
 From these above-mentioned problems, the accuracy of predicting something may be affected. This is a brief background of our problem.
 
@@ -82,6 +91,9 @@ We have chosen a particular example of having trusted and reliable data. The exa
 ## 2.3: Problem statement:-
 
 By the changing of the world, it is needed to update with technology. It is needed to improve existing weather prediction techniques with the help of advanced technologies. To get more accuracy in weather prediction, there is a need to have trusted and reliable data and data is collected through a proper channel. Our problem is to prepare an automated channel to measure, collect and store the measurements of temperature, air pressure, humidity, precipitation, wind speed and location in Blockchain for the better prediction.
+
+
+***
 
 
 # 3: PRE-ANALYSIS, METHODS, AND TASKS USED TO SOLVE
@@ -98,9 +110,9 @@ In the existing system, the data is either collected manually or by genuinely me
 
 The historical data used for prediction is stored in centralized databases. Centralized databases are vulnerable because of the following reasons:
 
-    	Data monitorization is done by admins. Admins can tamper the data for their own personal benefits, or they can access the data and sell to others.
-    	Data can be destroyed due to natural hazards. There is no way to retrieve back.
-    	Data is stored in servers either manually or by an automated process. If data is stored manually, there will be human error.
+* Data monitorization is done by admins. Admins can tamper the data for their own personal benefits, or they can access the data and sell to others.
+* Data can be destroyed due to natural hazards. There is no way to retrieve back.
+* Data is stored in servers either manually or by an automated process. If data is stored manually, there will be human error.
 
 ## 3.3: Loopholes in the existing system:-
 
@@ -110,8 +122,8 @@ As we discussed earlier, the data stored in centralized servers are vulnerable a
 
 The solution to providing trusted and reliable data is of two categories. They are:
 
-    	Provide an automated channel to measure, collect and store the data.
-    	Use a decentralized database like Blockchain to protect the data.
+* Provide an automated channel to measure, collect and store the data.
+* Use a decentralized database like Blockchain to protect the data.
 
 ### 3.4.1: Provide an automated channel to measure, collect and store the data:-
 
@@ -125,10 +137,10 @@ By using the decentralized databases like Blockchain, no one can tamper the data
 
 The method we proposed is building an automated channel and storing in a decentralized database. The automated channel comprises of four stages. They are:
 
-    	Measuring values using the Internet of Things.
-    	Sending the measured values into a decentralized cloud.
-    	Taking the data from decentralized cloud to the smart contract using Oraclize technique.
-    	Storing the collected data in Blockchain.
+* Measuring values using the Internet of Things.
+* Sending the measured values into a decentralized cloud.
+* Taking the data from decentralized cloud to the smart contract using Oraclize technique.
+* Storing the collected data in Blockchain.
 
 ### 3.5.1: Measuring values using the Internet of Things:-
 
@@ -163,15 +175,15 @@ Oraclize is developed by Oracle company to make the interaction between smart co
 
 One solution is to accept data inputs from more than one untrusted or partially trusted party and then execute the data-dependent action only after a number of them have provided the same answer or an answer within some constraints. This type of system can be considered a decentralized oracle system. Unfortunately, this approach has severe limitations:
 
-	   It requires a predefined standard on the data format.
-	   It is inherently inefficient; all the parties participating will require a fee and, for every request, it will take time before reaching a sufficient number of answers.
+* It requires a predefined standard on the data format.
+* It is inherently inefficient; all the parties participating will require a fee and, for every request, it will take time before reaching a sufficient number of answers.
 
 The solution developed by Oraclize is instead to demonstrate that the data fetched from the original data-source is genuine and untampered. This is accomplished by accompanying the returned data together with a document called authenticity proof. The authenticity proofs can build upon different technologies such as auditable virtual machines and Trusted Execution Environments. This solution elegantly solves the Oracle Problem:
 
-	   Blockchain Application's developers and the users of such applications don't have to trust Oraclize; the security model is maintained.
-	   Data providers don't have to modify their services in order to be compatible with blockchain protocols. Smart contracts can directly access data from Web sites or APIs.
+* Blockchain Application's developers and the users of such applications don't have to trust Oraclize; the security model is maintained.
+* Data providers don't have to modify their services in order to be compatible with blockchain protocols. Smart contracts can directly access data from Web sites or APIs.
 
-Oraclize engine can be easily integrated with both private and public instances of different blockchain protocols. While building the service, the Oraclize team has realized that the concept of authenticity proofs has much broader applicability than initially envisioned. For example, the Oraclize Random Data-source can be used even by traditional gambling applications to ensure users of continuous fairness of operation. Oraclize can operate with data sources from URL(HTML, JSON, API etc.,), Wolfram Alpha and IPFS(Interplanetary file system).
+Oraclize engine can be easily integrated with both private and public instances of different blockchain protocols. While building the service, the Oraclize team has realized that the concept of authenticity proofs has much broader applicability than initially envisioned. For example, the Oraclize Random Data-source can be used even by traditional gambling applications to ensure users of continuous fairness of operation. Oraclize can operate with data sources from URL(HTML, JSON, API, etc.,), Wolfram Alpha and IPFS(Interplanetary file system).
 
 We have used URL data source and JSON format to take the data from cloud to the smart contract of a Blockchain. To achieve the above challenge, we have written a smart contract using solidity programming language. You can access the code, it placed in this repository with the name - "STWDBBP.sol" and you can access the code using the link: https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/STWDBBP.sol
 
@@ -180,6 +192,10 @@ In this way, we can take the data from the cloud to the smart contract of a Bloc
 ### 3.5.4: Storing the collected data in Blockchain:-
 
 The data which is taken into the smart contract is stored into the Blockchain permanently. No one can tamper this data. Hence, we built the automated non-human intervention process to prepare the trusted and reliable data which is used to predict the weather far better than now.
+
+
+***
+
 
 # 4: RESULT, INTERPRETATION OF RESULT AND FUTURE WORK
 
@@ -195,30 +211,30 @@ The data will be further used to many of the applications such as information ga
 
 By the successful integration of things with Blockchain, we can even extend this to other real-life applications. One of the major applications is finding air quality index using IoT sensors and updating the measurements into the Blockchain with location and timestamp. We know the air quality index is used to find the pollutant levels in the surroundings. Hence, when government adopts this project and install these set up into various places of industries and factories, the government can monitor whether the factories and industries are releasing the pollution up to the extent kept by the government.
  
+
+***
+
+
 # REFERENCES
 
-	[1]	Satoshi Nakamoto, Bitcoin: A peer-to-peer electronic cash system, a white paper in 2008.
-	[2]	Edureka, https://www.edureka.co/blockchain-training?gclid=EAIaIQobChMIupS5ztSN3wIVVg4rCh1UAgk8EAAYASAAEgJ18_D_BwE, online certification course taken in 2017.
-	[3]	Arduino code, https://github.com/VeeruSubbuAmi/DHT22/blob/master/DHT22.ino 
-	[4]	Prediction Algorithms, https://www.quora.com/What-are-weather-prediction-algorithms-Are-there-any-predefined-algorithms
-	[5]	Oraclize, https://docs.oraclize.it/#background
-	[6]	Solidity Open Source, https://solidity.readthedocs.io/en/v0.4.25/.
-	[7]	Ethereum Community, https://readthedocs.org/projects/ethereum-homestead/.
-	[8]	Dapps, Ethereum community, http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html.
-	[9]	Truffle framework, https://truffleframework.com/.
-	[10]	Gavin Wood, Ethereum yellow paper, https://ethereum.github.io/yellowpaper/paper.pdf sited in 2018.
-	[11]	Ethereum Community, Remix browser, https://remix.readthedocs.io/en/latest/.
-	[12]	Etherscan, https://etherscan.io/.
-	[13]	Metamask, https://metamask.io/.
-	[14]	Web3.js, Open docs, https://web3js.readthedocs.io/en/1.0/.
-	[15]	Coursera Buffalo University, Specialization on Blockchain, https://www.coursera.org/specializations/blockchain, taken in 2018.
-	[16]	New Zealand Transport Agency, https://vehicleinspection.nzta.govt.nz/virms/entry-certification/pre-reg-and-vin/vehicle-attributes/recording-vehicle-attributes, sited in 2013.
-	[17]	Post capes, https://www.postscapes.com/blockchains-and-the-internet-of-things/. 
-	[18]	Xalentis, https://gideonvos.wordpress.com/2017/12/20/gps-iot-blockchain-integration-to-erp/. 
+* Satoshi Nakamoto, Bitcoin: A peer-to-peer electronic cash system, a white paper in 2008.
+* Edureka, https://www.edureka.co/blockchain-training?gclid=EAIaIQobChMIupS5ztSN3wIVVg4rCh1UAgk8EAAYASAAEgJ18_D_BwE, online certification course is taken in 2017.
+* Arduino code, https://github.com/VeeruSubbuAmi/DHT22/blob/master/DHT22.ino 
+* Prediction Algorithms, https://www.quora.com/What-are-weather-prediction-algorithms-Are-there-any-predefined-algorithms
+* Oraclize, https://docs.oraclize.it/#background
+* Solidity Open Source, https://solidity.readthedocs.io/en/v0.4.25/.
+* Ethereum Community, https://readthedocs.org/projects/ethereum-homestead/.
+* Dapps, Ethereum community, http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html.
+* Truffle framework, https://truffleframework.com/.
+* Gavin Wood, Ethereum yellow paper, https://ethereum.github.io/yellowpaper/paper.pdf sited in 2018.
+* Ethereum Community, Remix browser, https://remix.readthedocs.io/en/latest/.
+* Etherscan, https://etherscan.io/.
+* Metamask, https://metamask.io/.
+* Web3.js, Open docs, https://web3js.readthedocs.io/en/1.0/.
+* Coursera Buffalo University, Specialization on Blockchain, https://www.coursera.org/specializations/blockchain, taken in 2018.
+* New Zealand Transport Agency, https://vehicleinspection.nzta.govt.nz/virms/entry-certification/pre-reg-and-vin/vehicle-attributes/recording-vehicle-attributes, sited in 2013.
+* Post capes, https://www.postscapes.com/blockchains-and-the-internet-of-things/. 
+* Xalentis, https://gideonvos.wordpress.com/2017/12/20/gps-iot-blockchain-integration-to-erp/. 
 
 
-
-
-
-
-
+***
