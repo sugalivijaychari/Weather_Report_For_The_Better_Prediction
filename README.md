@@ -17,7 +17,7 @@ Storing the trusted weather reports on Blockchain for the better prediction is t
 
 # 1. INTRODUCTION
 
-# 1.1.a About Blockchain Technology:
+## 1.1.a About Blockchain Technology:
 
 Blockchain technology is introduced to the world by a white paper “Bitcoin, a peer-to-peer cash system” written by Satoshi Nakamoto, an anonymous person or group persons. Blockchain technology is the cumulative of all other technologies such as decentralized servers, distributed networks, smart contracts, digital signatures, cryptography, hash tables and more. All these technologies are underpinned technologies used in Bitcoin white paper. 
 
