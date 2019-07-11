@@ -206,7 +206,7 @@ Presently, we have taken only DHT22 sensor to find temperature and humidity to s
 
 As we know that there is no direct process to send the external data into the smart contract of a Blockchain, the measured is first sent to the decentralized cloud and again it is taken into the smart contract of a Blockchain. We have implemented this by using centralized cloud named Thingspeak because it is costlier to experiment with the decentralized cloud.
 
-We have used NodeMCU, DHT22 sensor and Thingspeak to send the measured details into the cloud using Arduino programming. The code for this is placed in the repository with the name - "STWDBBP.ino" and you can access the code using the link: https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/STWDBBP.ino
+We have used NodeMCU, DHT22 sensor and Thingspeak to send the measured details into the cloud using Arduino programming. The code for this is placed in the repository with the name - "STWDBBP.ino" and you can access the code using the link: https://github.com/sugalivijaychari/Weather_Report_For_The_Better_Prediction/blob/master/STWDBBP.ino
 
 ### 3.5.3: Taking the data from cloud to the smart contract using Oraclize technique:-
 
@@ -226,7 +226,7 @@ The solution developed by Oraclize is instead to demonstrate that the data fetch
 
 Oraclize engine can be easily integrated with both private and public instances of different blockchain protocols. While building the service, the Oraclize team has realized that the concept of authenticity proofs has much broader applicability than initially envisioned. For example, the Oraclize Random Data-source can be used even by traditional gambling applications to ensure users of continuous fairness of operation. Oraclize can operate with data sources from URL(HTML, JSON, API, etc.,), Wolfram Alpha and IPFS(Interplanetary file system).
 
-We have used URL data source and JSON format to take the data from cloud to the smart contract of a Blockchain. To achieve the above challenge, we have written a smart contract using solidity programming language. You can access the code, it placed in this repository with the name - "STWDBBP.sol" and you can access the code using the link: https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/STWDBBP.sol
+We have used URL data source and JSON format to take the data from cloud to the smart contract of a Blockchain. To achieve the above challenge, we have written a smart contract using solidity programming language. You can access the code, it placed in this repository with the name - "STWDBBP.sol" and you can access the code using the link: https://github.com/sugalivijaychari/Weather_Report_For_The_Better_Prediction/blob/master/STWDBBP.sol
 
 In this way, we can take the data from the cloud to the smart contract of a Blockchain.
 
