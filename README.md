@@ -153,7 +153,71 @@ Presently, we have taken only DHT22 sensor to find temperature and humidity to s
 
 As we know that there is no direct process to send the external data into the smart contract of a Blockchain, the measured is first sent to the decentralized cloud and again it is taken into the smart contract of a Blockchain. We have implemented this by using centralized cloud named Thingspeak because it is costlier to experiment with decentralized cloud. 
 
-We have used NodeMCU, DHT22 sensor and Thingspeak to send the measured details into the cloud using Arduino programming. The code for this is placed in the repository with the name - 
+We have used NodeMCU, DHT22 sensor and Thingspeak to send the measured details into the cloud using Arduino programming. The code for this is placed in the repository with the name - "STWDBBP.ino" and you can access the code using the link: https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/STWDBBP.ino
+
+# 3.5.3	Taking the data from cloud to smart contract using Oraclize technique:
+
+# About Oraclize:
+
+Oraclize is developed by Oracle company to make interaction between smart contract and the external data. Whatever the data present outside of the Blockchain world can be accessed through this Oraclize method. Oraclize is the leading oracle service for smart contracts and blockchain applications, serving thousands of requests every day on platforms like Ethereum, Rootstock, R3 Corda, Hyperledger Fabric and EOS. In the blockchain space, an oracle is a party which provides data. The need for such figure arises from the fact that blockchain applications, such as Bitcoin scripts and smart contracts cannot access and fetch directly the data, they require price feeds for assets and financial applications; weather-related information for peer-to-peer insurance; random number generation for gambling. But to rely on a new trusted intermediary, the oracle in this case, it would be betraying the security and reduced-trust model of blockchain applications: which is what makes them interesting and useful in first place. 
+
+One solution is to accept data inputs from more than one untrusted or partially trusted party and then execute the data-dependent action only after a number of them have provided the same answer or an answer within some constrains. This type of system can be considered a decentralized oracle system. Unfortunately, this approach has severe limitations:
+
+	   It requires a predefined standard on data format.
+	   It is inherently inefficient; all the parties participating will require a fee and, for every request, it will take time before reaching a sufficient number of answers.
+
+The solution developed by Oraclize is instead to demonstrate that the data fetched from the original data-source is genuine and untampered. This is accomplished by accompanying the returned data together with a document called authenticity proof. The authenticity proofs can build upon different technologies such as auditable virtual machines and Trusted Execution Environments. This solution elegantly solves the Oracle Problem:
+
+	   Blockchain Application's developers and the users of such applications don't have to trust Oraclize; the security model is maintained.
+	   Data  providers don't have to modify their services in order to be compatible with blockchain protocols. Smart contracts can directly access data from Web sites or APIs.
+
+Oraclize engine can be easily integrated with both private and public instances of different blockchain protocols. While building the service, the Oraclize team has realized that the concept of authenticity proofs has much broader applicability than initially envisioned. For example, the Oraclize Random Data-source can be used even by traditional gambling applications to ensure users of continuous fairness of operation. Oraclize can operate with data sources from URL(html, json, api etc.,), Wolfram Alpha and IPFS(Inter planetary file system).
+
+We have used URL data source and json format to take the data from cloud to smart contract of a Blockchain. To achieve the above challenge, we have written a smart contract using solidity programming language. You can access the code, it placed in this repository with the name - "STWDBBP.sol" and you can access the code using the link: https://github.com/sugalivijaychari/Weather-Report-For-The-Better-Prediction/blob/master/STWDBBP.sol
+
+In this way, we can take the data from cloud to the smart contract of a Blockchain. 
+
+# 3.5.4	Storing the collected data in Blockchain:
+
+The data which is taken into the smart contract is stored into the Blockchain permanently. No one can tamper this data. Hence, we built the automated non-human intervention process to prepare the trusted and reliable data which is used to predict the weather far better than now.
+
+# 4. RESULT, INTERPRETATION OF RESULT AND FUTURE WORK
+
+# 4.1 Result:
+
+We have successfully built an automated channel to measure, collect and store the weather details in Blockchain. This data becomes trusted and reliable by the nature it is built. Hence, we hope the prediction accuracy will be improved by transforming the method from existing to the method we proposed through this project.
+
+# 4.2 Interpretation of the result:
+
+The data will be further used to many of the applications such as information gathering, other projects like finding air quality index to know the pollution levels in the particular region.
+
+# 4.3 Future work:
+
+By the successful integration of things with Blockchain, we can even extend this to other real-life applications. One of the major applications is finding air quality index using IoT sensors and updating the measurements into the Blockchain with location and timestamp. We know the air quality index is used to find the pollutant levels in the surroundings. Hence, when government adopts this project and install these set up into various places of industries and factories, government can monitor whether the factories and industries are releasing the pollution up to the extent kept by the government.
+ 
+# REFERENCES
+
+	[1]	Satoshi Nakamoto, Bitcoin: A peer-to-peer electronic cash system, a white paper in 2008.
+	[2]	Edureka, https://www.edureka.co/blockchain-training?gclid=EAIaIQobChMIupS5ztSN3wIVVg4rCh1UAgk8EAAYASAAEgJ18_D_BwE, online certification course taken in 2017.
+	[3]	Arduino code, https://github.com/VeeruSubbuAmi/DHT22/blob/master/DHT22.ino 
+	[4]	Prediction Algorithms, https://www.quora.com/What-are-weather-prediction-algorithms-Are-there-any-predefined-algorithms
+	[5]	Oraclize, https://docs.oraclize.it/#background
+	[6]	Solidity Open Source, https://solidity.readthedocs.io/en/v0.4.25/.
+	[7]	Ethereum Community, https://readthedocs.org/projects/ethereum-homestead/.
+	[8]	Dapps, Ethereum community, http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html.
+	[9]	Truffle framework, https://truffleframework.com/.
+	[10]	Gavin Wood, Ethereum yellow paper, https://ethereum.github.io/yellowpaper/paper.pdf sited in 2018.
+	[11]	Ethereum Community, Remix browser, https://remix.readthedocs.io/en/latest/.
+	[12]	Etherscan, https://etherscan.io/.
+	[13]	Metamask, https://metamask.io/.
+	[14]	Web3.js, Open docs, https://web3js.readthedocs.io/en/1.0/.
+	[15]	Coursera Buffalo University, Specialization on Blockchain, https://www.coursera.org/specializations/blockchain, taken in 2018.
+	[16]	New Zealand Transport Agency, https://vehicleinspection.nzta.govt.nz/virms/entry-certification/pre-reg-and-vin/vehicle-attributes/recording-vehicle-attributes, sited in 2013.
+	[17]	Post capes, https://www.postscapes.com/blockchains-and-the-internet-of-things/. 
+	[18]	Xalentis, https://gideonvos.wordpress.com/2017/12/20/gps-iot-blockchain-integration-to-erp/. 
+
+
+
 
 
 
