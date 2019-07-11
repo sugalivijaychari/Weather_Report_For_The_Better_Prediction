@@ -53,7 +53,7 @@ Usage of other software and their installation part will be up to the date.
         * Test your transaction status in ropsten test network via https://ropsten.etherscan.io/tx/[transaction address]
         * If it's successful, then your new token is ready.	
 	
-# Development & Project Idea:
+# Development Instructions & Project Idea:
 
 	* Measure the weather details like temperature and pressure using Arduino board, and respective devices.
 	* The Arduino code we used can be accessed from here: https://github.com/sugalivijaychari/Weather_Report_For_The_Better_Prediction/blob/master/STWDBBP.ino
