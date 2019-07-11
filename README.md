@@ -1,3 +1,95 @@
+# Installation Instructions:
+
+To develop smart contracts the software needed are - Node.js and NPM, truffle, testrpc or ganache-cli, remix ide, and meta mask. 
+Usage of other software and their installation part will be up to the date.
+
+## 1. Install Node.js and NPM
+    
+        * Download the appropriate Node.js software through the link: https://nodejs.org/en/download/
+        * For the detailed installation process, check https://nodesource.com/blog/installing-nodejs-tutorial-windows/
+    
+## 2. Install Testrpc or Ganache-cli
+
+        * Before using truffle, we should install choco, git and visual studio code.
+        * Install choco through https://chocolatey.org/
+        * Now install git through the command 'choco install git –y'
+        * Now install Visual Studio Code through command 'choco install VisualStudioCode -y'
+        * Now if you aren't installed node, install node via 'npm install -g npm'
+        * Now do 'npm install -g -production windows-build-tools'
+        * Recently, testrpc is updated with ganache-cli. Install ganache-cli by the command 'npm install -g ganache-cli'. Learn more on Ganache-cli through https://github.com/trufflesuite/ganache-cli
+        
+## 3. Install Truffle
+
+        * Install by using command 'npm install -g truffle'
+        * Follow https://truffleframework.com/tutorials/ to know more on the truffle, testrpc, and ganache-cli.
+        
+## 4. Metamask
+
+        * Go to https://metamask.io/
+        * You will find to add meta mask extension to your browser.
+        * Click add extension.
+        * Now you will get a window in the taskbar of your browser. Select Ropsten Test Network and create a new account.
+        * Now you get your wallet appeared.
+        * Now click on Buy option to buy the test ether for free through https://faucet.metamask.io/
+            * Now click on - Request 1 ether from the faucet
+            * This will be enough to play with contracts in the test network
+            * If you want to add more, you can add with the same process in future
+        * Now in your wallet, you will have 1 ether.
+
+## 5. Remix IDE
+
+        * Open https://remix.ethereum.org
+        * This is the online environment in which you will be working with smart contracts by using solidity language.
+        * Write your code here.
+        * After writing code, you should go to -> Settings -> Select New Compiler Version
+            * Note1: Make sure that you select right compiler version where you used in your contract code.
+            * For Example, If you have written your code with 
+                * pragma solidity ^0.4.13;
+                * You should select below compiler version
+                * 0.4.13+commit.fb4cb1a
+            * Note2: Make sure that you check out the optimization for not getting any errors in future.
+        * Now write your smart contract with functionalities you need to keep to your new Token.
+        * Now you deploy the smart contract using Metamask.
+        * Test your transaction status in ropsten test network via https://ropsten.etherscan.io/tx/[transaction address]
+        * If it's successful, then your new token is ready.	
+	
+# Development & Project Idea:
+
+	* Measure the weather details like temperature and pressure using Arduino board, and respective devices.
+	* The Arduino code we used can be accessed from here: https://github.com/sugalivijaychari/Weather_Report_For_The_Better_Prediction/blob/master/STWDBBP.ino
+	* Connect the devices with arduino board. 
+	* Execute the code.
+	* We supposed to use decentralized cloud to send the IoT data. But, in this we have used centralized cloud for prototyping.
+	* When we execute the code, the weather details like temperature and pressure are measured and stored in Cloud.
+	* Now follow the Below process to connect with Blockchain.
+	* Remix browser we used here is: https://remix.oraclize.it/
+	* Copy and Paste the smart contract in Remix IDE. The smart contract path is: https://github.com/sugalivijaychari/Weather_Report_For_The_Better_Prediction/blob/master/STWDBBP.sol
+	* Set the compiler version as solidity 0.4.18.
+	* Choose environment in Remix as Javascript VM.
+	* Enable Oraclize plugin.
+	* Go to RUN tab, and deploy the contract.
+	* Make sure EVM is optimized and limited gas is provided.
+	* Proper user interface is provided in the Remix IDE. Play with the smart contract using it.
+	* You can use Oraclize tab to track the events.
+	* Remix IDE is just for developer convenience.
+	* Open Command Prompt and initiate local network using Truffle.
+	* Truffle is used to test, deploy, migrate the contracts.
+	* Follow below commands:
+		* truffle develop
+		* truffle init
+		* truffle compile
+		* truffle migrate
+		* truffle test
+	* We can also develop some test scripts to test the smart contract. This testing is called as Audit testing.
+	* Upto, we compiled the smart contract, deployed it in Ethereum Blockchain using Oraclize plugin.
+	* Our future work is to use decentralized cloud and make use of these collected and stored measurements of weather in future.
+	* One of the major application is finding "Air Quality Index" near factories automatically using IoT devices.
+	* After finding Air Quality Index, storing this details in Blockchain using oraclize and decentralized cloud with location.
+	* This idea makes us to control factories and industries not to pollute the environment much.
+	* The stored information of weather details in Blockchain are trusted and secured.
+	* These data can also be used to improve the prediction of forecasting.
+
+
 ***
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
